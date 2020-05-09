@@ -1,10 +1,9 @@
 package Stream.find;
 
-import Stream.User;
+import Stream.pojos.User;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Main {
 

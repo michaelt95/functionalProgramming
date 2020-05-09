@@ -1,4 +1,4 @@
-package Stream;
+package Stream.pojos;
 
 public class User {
     private String name;
@@ -8,8 +8,6 @@ public class User {
         this.name = name;
         this.age = age;
     }
-
-    public User() {}
     public String getName() {
         return name;
     }

@@ -1,6 +1,6 @@
 package Stream.formsOfCreate;
 
-import Stream.User;
+import Stream.pojos.User;
 
 import java.util.ArrayList;
 import java.util.List;

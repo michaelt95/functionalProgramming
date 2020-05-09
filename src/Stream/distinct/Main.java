@@ -1,4 +1,4 @@
-package Stream.distict;
+package Stream.distinct;
 
 import java.util.Arrays;
 import java.util.List;

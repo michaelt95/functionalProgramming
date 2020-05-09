@@ -1,6 +1,6 @@
 package Stream.filter;
 
-import Stream.User;
+import Stream.pojos.User;
 
 import java.util.Arrays;
 import java.util.List;
