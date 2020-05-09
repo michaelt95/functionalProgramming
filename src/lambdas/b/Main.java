@@ -17,5 +17,12 @@ public class Main {
 
         resultado = suma.suma(100,200);
         System.out.println(resultado);
+
+        //Utilizando metodos por referencia
+        //esto hace que le indiquemos que le vamos a pasar valores integer y que se van a sumar
+        ISuma referencia = (Integer::sum);
+        int sumReferencia = referencia.suma(20,20);
+        System.out.println(sumReferencia);
+
     }
 }
