@@ -4,11 +4,8 @@ public class User {
     private String name;
     private Integer age;
 
-    public void setName(String name) {
+    public User(String name, Integer age) {
         this.name = name;
-    }
-
-    public void setAge(Integer age) {
         this.age = age;
     }
 
@@ -20,8 +17,11 @@ public class User {
         return age;
     }
 
-    public User(String name, Integer age) {
-        this.name = name;
-        this.age = age;
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
     }
 }
