@@ -1,4 +1,4 @@
-package Stream.flatmap;
+package Stream.flatMap;
 
 import java.util.Arrays;
 import java.util.Collection;

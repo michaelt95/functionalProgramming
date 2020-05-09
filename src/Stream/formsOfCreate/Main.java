@@ -1,4 +1,4 @@
-package Stream.formsofcreate;
+package Stream.formsOfCreate;
 
 import Stream.User;
 

@@ -1,4 +1,4 @@
-package Stream.typemethods;
+package Stream.typeMethods;
 
 import Stream.User;
 

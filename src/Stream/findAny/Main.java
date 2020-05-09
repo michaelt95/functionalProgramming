@@ -1,4 +1,4 @@
-package Stream.findany;
+package Stream.findAny;
 
 import java.util.Arrays;
 import java.util.List;
