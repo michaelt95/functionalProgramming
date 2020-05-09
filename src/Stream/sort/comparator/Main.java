@@ -1,12 +1,10 @@
-package Stream.sort.object;
+package Stream.sort.comparator;
 
 import Stream.pojos.Book;
-import Stream.pojos.User;
 
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Main {
 
@@ -21,9 +19,11 @@ public class Main {
                 new Book("El hobbit",100),
                 new Book("El principito",140));
 
+        //Obtener el titulo del segundo y el tercer libro mas vendido
         books.stream()
                 .sorted(Comparator.comparing(Book::getCopies).reversed())
                 .limit(3)
+                .skip(1)
                 .forEach(book -> System.out.println(book.getTitle()));
     }
 }
