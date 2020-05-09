@@ -17,5 +17,10 @@ public class Main {
             System.out.println("Hola "+nombre);
         };
         saludarDos.saluda("mike");
+
+        ISaludar saludarDosRefactor =
+        nombre -> System.out.println((nombre.equalsIgnoreCase("mike"))?"Hola "+nombre+"!, que tal ?":"Hola "+nombre);
+
+        saludarDosRefactor.saluda("noMike");
     }
 }
