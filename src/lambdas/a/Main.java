@@ -1,4 +1,4 @@
-package lambdas;
+package lambdas.a;
 
 public class Main {
 

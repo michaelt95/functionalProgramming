@@ -1,4 +1,4 @@
-package lambdas;
+package lambdas.a;
 @FunctionalInterface
 public interface ISaludar {
 
