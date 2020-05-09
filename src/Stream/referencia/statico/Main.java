@@ -1,4 +1,4 @@
-package Stream.referencia;
+package Stream.referencia.statico;
 
 import java.util.Arrays;
 import java.util.List;
