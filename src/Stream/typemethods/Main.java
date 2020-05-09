@@ -22,10 +22,10 @@ public class Main {
         // Iteracion interna
 
         // Retornan un nmuevo stream
-        //
+        // retornan un valor en concreto
 
         Stream<User> stream = users.stream();
         // Filter -> Abstraccion -> Nuevo stream
-        System.out.println(stream.filter(user -> user.getAge() >18));
+        System.out.println(stream.filter(user -> user.getAge() >18).count());
     }
 }
