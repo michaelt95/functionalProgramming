@@ -8,6 +8,7 @@ public class Main {
 
     public static void main(String[] args){
         // Obtener el cuadrado de todos los numeros en la lista.
+        // El método map nos permite transformar un objeto en otro a través de una función.
 
         List<Integer> numeros = Arrays.asList(1,2,3,4,5,6,7,8,9,10); // 1 lista
 
