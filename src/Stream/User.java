@@ -1,4 +1,4 @@
-package Stream.a;
+package Stream;
 
 public class User {
     private String name;

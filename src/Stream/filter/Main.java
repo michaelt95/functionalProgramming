@@ -1,4 +1,6 @@
-package Stream.a;
+package Stream.filter;
+
+import Stream.User;
 
 import java.util.Arrays;
 import java.util.List;
